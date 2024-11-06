@@ -1,0 +1,23 @@
+{
+    "name": "mohammed/phpasix",
+    "description": "Projecte PHP Asix",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.6.9"    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        },
+        "files" : [
+            "Core/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "mohammed",
+            "email": "mohammedbensalah@iesebre.com"
+        }
+    ]
+}
